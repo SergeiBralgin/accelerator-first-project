@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: $color-primary;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  border-radius: 30px;
+  border: 1px solid $color-primary;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: $color-primary;
+    border-radius: 50%;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+  }
+}

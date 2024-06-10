@@ -1,0 +1,14 @@
+.logo {
+  background-color: $color-light;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.logo__img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

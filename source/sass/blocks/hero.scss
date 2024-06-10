@@ -1,0 +1,20 @@
+.hero {
+  padding: 20px 0;
+  background: url("../img/hero-mobile.jpg") no-repeat;
+  background-size: 100%;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 30px 0;
+    background: url("../img/hero-tablet.jpg") no-repeat;
+    background-size: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero {
+    background: url("../img/hero-desktop.jpg") no-repeat;
+    background-size: 100%;
+  }
+}

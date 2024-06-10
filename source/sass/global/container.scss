@@ -1,0 +1,25 @@
+.container {
+  padding: 0 15px;
+
+  &--form {
+    padding: 0 10px;
+  }
+}
+
+@media (min-width: $width-tablet) {
+  .container {
+    padding: 0 45px;
+
+    &--form {
+      padding-right: 71px;
+    }
+  }
+}
+
+@media (min-width: $width-desktop) {
+  .container {
+    padding: 0 100px;
+    max-width: $width-desktop;
+    margin: 0 auto;
+  }
+}

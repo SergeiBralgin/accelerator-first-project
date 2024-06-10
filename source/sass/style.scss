@@ -1,1 +1,17 @@
+//Global
+@import "./global/fonts";
+@import "./global/variables";
+@import "./global/visually-hidden";
+@import "./global/container";
+@import "./global/mixins";
+@import "./global/global";
 
+//blocks
+@import "./blocks/hero";
+@import "./blocks/header";
+@import "./blocks/site-nav";
+@import "./blocks/hero-swiper";
+
+@import "./blocks/logo";
+@import "./blocks/title";
+@import "./blocks/button";
